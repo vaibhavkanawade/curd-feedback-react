@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Feedbackform from './components/Feedbackform';
 import ShowData from './components/ShowData';
+import FeedBackEditComponent from './components/FeedBackEditComponent';
 
 import {
   createBrowserRouter,
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "showdata",
         element: <ShowData />
+      },
+      {
+        path: "feedbackedit",
+        element: <FeedBackEditComponent />
       },
 
     ]
